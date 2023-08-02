@@ -12,8 +12,9 @@ import { ToastContainer } from 'react-toastify';
 import Login from './admin/components/login';
 import Logout from './admin/components/logout';
 import Register from './admin/components/Register';
-import ProtectedRoutes from './admin/ProtectedRoute';
-
+import ProtectedRoutes from './admin/components/ProtectedRoute';
+import Menu from "./components/NavScroll";
+import Nopage from"../src/admin/components/Nopage"
 function App() {
   return (
     <div className="App">

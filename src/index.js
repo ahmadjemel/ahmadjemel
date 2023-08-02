@@ -11,6 +11,7 @@ import {
   persistStore,
   } from 'redux-persist'
   import { PersistGate } from 'redux-persist/integration/react'
+import { Router } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 let persistor = persistStore(store)
